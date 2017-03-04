@@ -1,0 +1,26 @@
+{
+  "name": "hortons",
+  "version": "0.0.0",
+  "description": "Target for sock sensor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "repository": "https://github.com/AndrewBitar/hortons.git",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "3.0.1",
+    "express": "4.14.0",
+    "minimist": "1.1.0",
+    "morgan": "1.7.0",
+    "sc-cluster-broker-client": "~1.0.4",
+    "sc-framework-health-check": "~1.0.0",
+    "sc-hot-reboot": "~1.0.0",
+    "serve-static": "1.11.2",
+    "socketcluster": "~5.8.0",
+    "socketcluster-client": "~5.2.5"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0"
+  }
+}
